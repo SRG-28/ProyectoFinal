@@ -1,5 +1,5 @@
-import { defineComponent, unref, useSSRContext } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue/index.mjs';
-import { ssrRenderAttrs } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue/server-renderer/index.mjs';
+import { defineComponent, unref, useSSRContext } from 'file://D:/sofia/ProyectoFinal/node_modules/vue/index.mjs';
+import { ssrRenderAttrs } from 'file://D:/sofia/ProyectoFinal/node_modules/vue/server-renderer/index.mjs';
 
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "ProseScript",

@@ -1,39 +1,39 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { hasInjectionContext, getCurrentInstance, inject, defineAsyncComponent, defineComponent, h, computed, unref, shallowRef, provide, shallowReactive, createElementBlock, ref, Suspense, Fragment, createApp, toRef, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, reactive, effectScope, isReadonly, isRef, isShallow, isReactive, toRaw, mergeProps, getCurrentScope, withCtx, nextTick, useSSRContext } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue/index.mjs';
-import { $fetch } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/ofetch/dist/node.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { hasInjectionContext, getCurrentInstance, inject, defineAsyncComponent, defineComponent, h, computed, unref, shallowRef, provide, shallowReactive, createElementBlock, ref, Suspense, Fragment, createApp, toRef, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, reactive, effectScope, isReadonly, isRef, isShallow, isReactive, toRaw, mergeProps, getCurrentScope, withCtx, nextTick, useSSRContext } from 'file://D:/sofia/ProyectoFinal/node_modules/vue/index.mjs';
+import { $fetch } from 'file://D:/sofia/ProyectoFinal/node_modules/ofetch/dist/node.mjs';
 import { h as baseURL } from '../_/nitro.mjs';
-import { createHooks } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/hookable/dist/index.mjs';
-import { getContext, executeAsync } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unctx/dist/index.mjs';
-import { createError as createError$1, sanitizeStatusCode, appendHeader } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/h3/dist/index.mjs';
-import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue-router/dist/vue-router.node.mjs';
-import { toRouteMatcher, createRouter as createRouter$1 } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/radix3/dist/index.mjs';
-import { defu } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/defu/dist/defu.mjs';
-import { hasProtocol, isScriptProtocol, joinURL, withQuery } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/ufo/dist/index.mjs';
-import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue/server-renderer/index.mjs';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unified/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-parse/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-rehype/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-mdc/dist/index.mjs';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-gfm/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/rehype-external-links/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/rehype-sort-attribute-values/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/rehype-sort-attributes/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/rehype-raw/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/detab/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/scule/dist/index.mjs';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/micromark-util-sanitize-uri/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/hast-util-to-string/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/github-slugger/index.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/destr/dist/index.mjs';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/node-mock-http/dist/index.mjs';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/klona/dist/index.mjs';
+import { createHooks } from 'file://D:/sofia/ProyectoFinal/node_modules/hookable/dist/index.mjs';
+import { getContext, executeAsync } from 'file://D:/sofia/ProyectoFinal/node_modules/unctx/dist/index.mjs';
+import { createError as createError$1, sanitizeStatusCode, appendHeader } from 'file://D:/sofia/ProyectoFinal/node_modules/h3/dist/index.mjs';
+import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file://D:/sofia/ProyectoFinal/node_modules/vue-router/dist/vue-router.node.mjs';
+import { toRouteMatcher, createRouter as createRouter$1 } from 'file://D:/sofia/ProyectoFinal/node_modules/radix3/dist/index.mjs';
+import { defu } from 'file://D:/sofia/ProyectoFinal/node_modules/defu/dist/defu.mjs';
+import { hasProtocol, isScriptProtocol, joinURL, withQuery } from 'file://D:/sofia/ProyectoFinal/node_modules/ufo/dist/index.mjs';
+import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode } from 'file://D:/sofia/ProyectoFinal/node_modules/vue/server-renderer/index.mjs';
+import 'file://D:/sofia/ProyectoFinal/node_modules/unified/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/remark-parse/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/remark-rehype/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/remark-mdc/dist/index.mjs';
+import 'file://D:/sofia/ProyectoFinal/node_modules/remark-gfm/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/rehype-external-links/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/rehype-sort-attribute-values/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/rehype-sort-attributes/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/rehype-raw/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/detab/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/scule/dist/index.mjs';
+import 'file://D:/sofia/ProyectoFinal/node_modules/micromark-util-sanitize-uri/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/hast-util-to-string/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/github-slugger/index.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/destr/dist/index.mjs';
+import 'file://D:/sofia/ProyectoFinal/node_modules/node-mock-http/dist/index.mjs';
+import 'file://D:/sofia/ProyectoFinal/node_modules/klona/dist/index.mjs';
 import 'node:fs';
 import 'node:url';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/pathe/dist/index.mjs';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unstorage/dist/index.mjs';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unstorage/drivers/fs.mjs';
-import 'file:///D:/sofia/Proyecto8SofiaRafael/node_modules/nuxt/dist/core/runtime/nitro/utils/cache-driver.js';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/nitropack/node_modules/ohash/dist/index.mjs';
+import 'file://D:/sofia/ProyectoFinal/node_modules/pathe/dist/index.mjs';
+import 'file://D:/sofia/ProyectoFinal/node_modules/unstorage/dist/index.mjs';
+import 'file://D:/sofia/ProyectoFinal/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///D:/sofia/ProyectoFinal/node_modules/nuxt/dist/core/runtime/nitro/utils/cache-driver.js';
+import 'file://D:/sofia/ProyectoFinal/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file://D:/sofia/ProyectoFinal/node_modules/nitropack/node_modules/ohash/dist/index.mjs';
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch.create({
@@ -410,22 +410,22 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-DtQDq5tR.mjs')
+    component: () => import('./index-CVnUvPyV.mjs')
   },
   {
     name: "airline-airlinedetail",
     path: "/airline/:airlinedetail()",
-    component: () => import('./_airlinedetail_-BOgtIpCo.mjs')
+    component: () => import('./_airlinedetail_-DVphykqg.mjs')
   },
   {
     name: "airplane-airplanedetail",
     path: "/airplane/:airplanedetail()",
-    component: () => import('./_airplanedetail_-BVrWUXO1.mjs')
+    component: () => import('./_airplanedetail_-DL-HwMhD.mjs')
   },
   {
     name: "airplanemanufacturer-manufacturerdetail",
     path: "/airplanemanufacturer/:manufacturerdetail()",
-    component: () => import('./_manufacturerdetail_-CyF9Gw9_.mjs')
+    component: () => import('./_manufacturerdetail_-ErZlbr0J.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -765,43 +765,45 @@ const revive_payload_server_MVtmlZaQpj6ApFmshWfUWl5PehCebzaBf2NuRMiIbms = /* @__
     }
   }
 });
-const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-ChdJ9pnD.mjs').then((r) => r["default"] || r.default || r));
-const LazyContentList = defineAsyncComponent(() => import('./ContentList-BG1ohbP6.mjs').then((r) => r["default"] || r.default || r));
-const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-D7dzDfF-.mjs').then((r) => r["default"] || r.default || r));
-const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-79VaNly5.mjs').then((r) => r["default"] || r.default || r));
-const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-D837Zpku.mjs').then((r) => r["default"] || r.default || r));
-const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-BRb8CUkn.mjs').then((r) => r["default"] || r.default || r));
+const LazyUtterances = defineAsyncComponent(() => import('./Utterances-CjQUSrPk.mjs').then((r) => r["default"] || r.default || r));
+const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-Db_z0Zva.mjs').then((r) => r["default"] || r.default || r));
+const LazyContentList = defineAsyncComponent(() => import('./ContentList-BbAIA1IT.mjs').then((r) => r["default"] || r.default || r));
+const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-DHxNMUNf.mjs').then((r) => r["default"] || r.default || r));
+const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-CjbbQrqw.mjs').then((r) => r["default"] || r.default || r));
+const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-Bxu5qljL.mjs').then((r) => r["default"] || r.default || r));
+const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-LWjPc0MQ.mjs').then((r) => r["default"] || r.default || r));
 const LazyContentSlot = defineAsyncComponent(() => import('./ContentSlot--bm2zkaT.mjs').then((r) => r["default"] || r.default || r));
 const LazyDocumentDrivenEmpty = defineAsyncComponent(() => import('./DocumentDrivenEmpty-CVfz7tly.mjs').then((r) => r["default"] || r.default || r));
 const LazyDocumentDrivenNotFound = defineAsyncComponent(() => import('./DocumentDrivenNotFound-4pTrsASA.mjs').then((r) => r["default"] || r.default || r));
 const LazyMarkdown = defineAsyncComponent(() => import('./Markdown-4v9AN4uR.mjs').then((r) => r["default"] || r.default || r));
 const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-C_vIM45j.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseCodeInline = defineAsyncComponent(() => import('./ProseCodeInline-DXCNavlI.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseCodeInline = defineAsyncComponent(() => import('./ProseCodeInline-C8hivbSb.mjs').then((r) => r["default"] || r.default || r));
 const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-Cwno3XVq.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseA = defineAsyncComponent(() => import('./ProseA-BQk5x9h9.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseBlockquote = defineAsyncComponent(() => import('./ProseBlockquote-BX6T-NRx.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-CZlLll15.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-DAXzRzf3.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-CwFGvEiz.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-7R8g-7Ix.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-DjZGUMBP.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-eH-QhFed.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-CaWlDXDA.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-BTE5UiwZ.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-B3ZfqKHb.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-CsYqKe-R.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-DhRPkRlI.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseP = defineAsyncComponent(() => import('./ProseP-C4Ie0p4o.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseA = defineAsyncComponent(() => import('./ProseA-BKzK5sWe.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseBlockquote = defineAsyncComponent(() => import('./ProseBlockquote-BSIhogp7.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-hGGg-CtN.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-imglEozA.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-CKzX9zDK.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-BgwBuxrN.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-CO8FtWmh.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-Chb8DDIr.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-DVhV01YM.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-CGcqSQlX.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-DvVMu6iX.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-BZbfHS-u.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-CrXkc66-.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseP = defineAsyncComponent(() => import('./ProseP-BmS-fF4m.mjs').then((r) => r["default"] || r.default || r));
 const LazyProseScript = defineAsyncComponent(() => import('./ProseScript-D0R07iM6.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseStrong = defineAsyncComponent(() => import('./ProseStrong-DTNCEDB8.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseTable = defineAsyncComponent(() => import('./ProseTable-N-_iotBV.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseTbody = defineAsyncComponent(() => import('./ProseTbody-B6hZdtvt.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseTd = defineAsyncComponent(() => import('./ProseTd-CIHVoR4d.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseTh = defineAsyncComponent(() => import('./ProseTh-CbLOVsQB.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseThead = defineAsyncComponent(() => import('./ProseThead-B4aRV9zU.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseTr = defineAsyncComponent(() => import('./ProseTr-C3sNFkl9.mjs').then((r) => r["default"] || r.default || r));
-const LazyProseUl = defineAsyncComponent(() => import('./ProseUl-Cq72Ab-V.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseStrong = defineAsyncComponent(() => import('./ProseStrong-CRbkAMm-.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseTable = defineAsyncComponent(() => import('./ProseTable-D2p15k8G.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseTbody = defineAsyncComponent(() => import('./ProseTbody-DKZGhP8g.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseTd = defineAsyncComponent(() => import('./ProseTd-EPKuNS9J.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseTh = defineAsyncComponent(() => import('./ProseTh-BwsgA6H2.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseThead = defineAsyncComponent(() => import('./ProseThead-DXoNRds5.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseTr = defineAsyncComponent(() => import('./ProseTr-bniEOj1s.mjs').then((r) => r["default"] || r.default || r));
+const LazyProseUl = defineAsyncComponent(() => import('./ProseUl-WMaMhxIO.mjs').then((r) => r["default"] || r.default || r));
 const lazyGlobalComponents = [
+  ["Utterances", LazyUtterances],
   ["ContentDoc", LazyContentDoc],
   ["ContentList", LazyContentList],
   ["ContentNavigation", LazyContentNavigation],
@@ -1168,8 +1170,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import('./error-404-CMsmcSr1.mjs'));
-    const _Error = defineAsyncComponent(() => import('./error-500-B2X6QElN.mjs'));
+    const _Error404 = defineAsyncComponent(() => import('./error-404-Bv65RoFb.mjs'));
+    const _Error = defineAsyncComponent(() => import('./error-500-DvruTms1.mjs'));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));

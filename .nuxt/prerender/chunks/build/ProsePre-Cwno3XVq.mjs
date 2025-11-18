@@ -1,6 +1,6 @@
 import _sfc_main$1 from './ProseCode-C_vIM45j.mjs';
-import { defineComponent, mergeProps, withCtx, createVNode, renderSlot, useSSRContext } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue/index.mjs';
-import { ssrRenderComponent, ssrRenderClass, ssrRenderStyle, ssrRenderSlot } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue/server-renderer/index.mjs';
+import { defineComponent, mergeProps, withCtx, createVNode, renderSlot, useSSRContext } from 'file://D:/sofia/ProyectoFinal/node_modules/vue/index.mjs';
+import { ssrRenderComponent, ssrRenderClass, ssrRenderStyle, ssrRenderSlot } from 'file://D:/sofia/ProyectoFinal/node_modules/vue/server-renderer/index.mjs';
 
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "ProsePre",

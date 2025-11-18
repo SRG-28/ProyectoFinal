@@ -56,7 +56,6 @@
           :to="`/airplane/${airplane.id}`"
           class="group relative flex items-center gap-4 p-4 border rounded-2xl shadow hover:scale-105 hover:bg-pink-50 transition font-semibold text-lg bg-white bg-opacity-90"
         >
-          <!-- Miniatura del avión -->
           <div class="w-20 h-20 flex-shrink-0">
             <img
               v-if="airplane.imagen"
@@ -69,7 +68,6 @@
             </div>
           </div>
 
-          <!-- Nombre del avión -->
           <span class="flex-1 text-left">{{ airplane.modelo }}</span>
         </NuxtLink>
       </div>
@@ -79,7 +77,17 @@
       </p>
     </div>
 
-    <!-- Botón volver al catálogo -->
+    <!-- Utterances comentarios -->
+    <div class="mt-16 relative z-10">
+      <Utterances
+        repo="SRG-28/ProyectoFinal"
+        issue-term="pathname"
+        label="manufacturer-comments"
+        theme="github-light"
+      />
+    </div>
+
+    <!-- Botón volver -->
     <div class="text-center mt-10 relative z-10">
       <NuxtLink
         to="/"
@@ -97,7 +105,6 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 const manufacturerId = route.params.manufacturerdetail
 
-/* Cargamos el fabricante incluyendo IMAGEN */
 const manufacturer = await queryContent('/airplanemanufacturer')
   .only(['id', 'nombre', 'imagen', 'fundacion', 'pais_sede', 'descripcion', 'web'])
   .where({ id: manufacturerId })
@@ -107,12 +114,10 @@ if (!manufacturer) {
   throw createError({ statusCode: 404, statusMessage: 'Fabricante no encontrado' })
 }
 
-/* Cargamos aviones incluyendo IMAGEN */
 const allAirplanes = await queryContent('/airplanes')
   .only(['id', 'modelo', 'imagen', 'fabricante_id'])
   .find()
 
-/* Filtramos por fabricante */
 const airplanesByManufacturer = allAirplanes.filter(a => a.fabricante_id === manufacturerId)
 </script>
 
@@ -126,3 +131,4 @@ const airplanesByManufacturer = allAirplanes.filter(a => a.fabricante_id === man
   animation: text-gradient 5s ease infinite;
 }
 </style>
+

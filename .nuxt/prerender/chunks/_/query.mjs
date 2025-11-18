@@ -1,4 +1,4 @@
-import { getQuery, createError } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/h3/dist/index.mjs';
+import { getQuery, createError } from 'file://D:/sofia/ProyectoFinal/node_modules/h3/dist/index.mjs';
 
 function jsonParse(value) {
   return JSON.parse(value, regExpReviver);

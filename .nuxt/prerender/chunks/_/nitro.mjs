@@ -1,36 +1,36 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, createError, getResponseStatus, getQuery as getQuery$1, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/h3/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash, joinRelativeURL } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/ufo/dist/index.mjs';
-import { unified } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unified/index.js';
-import remarkParse from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-parse/index.js';
-import remark2rehype from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-rehype/index.js';
-import remarkMDC, { parseFrontMatter } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-mdc/dist/index.mjs';
-import defu, { defuFn, defu as defu$1 } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/defu/dist/defu.mjs';
-import remarkGFM from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-gfm/index.js';
-import rehypeExternalLinks from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/rehype-external-links/index.js';
-import rehypeSortAttributeValues from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/rehype-sort-attribute-values/index.js';
-import rehypeSortAttributes from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/rehype-sort-attributes/index.js';
-import rehypeRaw from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/rehype-raw/index.js';
-import { detab } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/detab/index.js';
-import { snakeCase, kebabCase } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/scule/dist/index.mjs';
-import { normalizeUri } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/micromark-util-sanitize-uri/index.js';
-import { toString } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/hast-util-to-string/index.js';
-import Slugger from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/github-slugger/index.js';
-import destr from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/destr/dist/index.mjs';
-import { createHooks } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/node-mock-http/dist/index.mjs';
-import { klona } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/klona/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/radix3/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, createError, getResponseStatus, getQuery as getQuery$1, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file://D:/sofia/ProyectoFinal/node_modules/h3/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash, joinRelativeURL } from 'file://D:/sofia/ProyectoFinal/node_modules/ufo/dist/index.mjs';
+import { unified } from 'file://D:/sofia/ProyectoFinal/node_modules/unified/index.js';
+import remarkParse from 'file://D:/sofia/ProyectoFinal/node_modules/remark-parse/index.js';
+import remark2rehype from 'file://D:/sofia/ProyectoFinal/node_modules/remark-rehype/index.js';
+import remarkMDC, { parseFrontMatter } from 'file://D:/sofia/ProyectoFinal/node_modules/remark-mdc/dist/index.mjs';
+import defu, { defuFn, defu as defu$1 } from 'file://D:/sofia/ProyectoFinal/node_modules/defu/dist/defu.mjs';
+import remarkGFM from 'file://D:/sofia/ProyectoFinal/node_modules/remark-gfm/index.js';
+import rehypeExternalLinks from 'file://D:/sofia/ProyectoFinal/node_modules/rehype-external-links/index.js';
+import rehypeSortAttributeValues from 'file://D:/sofia/ProyectoFinal/node_modules/rehype-sort-attribute-values/index.js';
+import rehypeSortAttributes from 'file://D:/sofia/ProyectoFinal/node_modules/rehype-sort-attributes/index.js';
+import rehypeRaw from 'file://D:/sofia/ProyectoFinal/node_modules/rehype-raw/index.js';
+import { detab } from 'file://D:/sofia/ProyectoFinal/node_modules/detab/index.js';
+import { snakeCase, kebabCase } from 'file://D:/sofia/ProyectoFinal/node_modules/scule/dist/index.mjs';
+import { normalizeUri } from 'file://D:/sofia/ProyectoFinal/node_modules/micromark-util-sanitize-uri/index.js';
+import { toString } from 'file://D:/sofia/ProyectoFinal/node_modules/hast-util-to-string/index.js';
+import Slugger from 'file://D:/sofia/ProyectoFinal/node_modules/github-slugger/index.js';
+import destr from 'file://D:/sofia/ProyectoFinal/node_modules/destr/dist/index.mjs';
+import { createHooks } from 'file://D:/sofia/ProyectoFinal/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file://D:/sofia/ProyectoFinal/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://D:/sofia/ProyectoFinal/node_modules/node-mock-http/dist/index.mjs';
+import { klona } from 'file://D:/sofia/ProyectoFinal/node_modules/klona/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file://D:/sofia/ProyectoFinal/node_modules/radix3/dist/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/pathe/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unstorage/drivers/fs.mjs';
-import file_58_47_47_47D_58_47sofia_47Proyecto8SofiaRafael_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47utils_47cache_45driver_46js from 'file:///D:/sofia/Proyecto8SofiaRafael/node_modules/nuxt/dist/core/runtime/nitro/utils/cache-driver.js';
-import unstorage_47drivers_47fs_45lite from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unstorage/drivers/fs-lite.mjs';
-import { digest } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/nitropack/node_modules/ohash/dist/index.mjs';
+import { dirname, resolve } from 'file://D:/sofia/ProyectoFinal/node_modules/pathe/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://D:/sofia/ProyectoFinal/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://D:/sofia/ProyectoFinal/node_modules/unstorage/drivers/fs.mjs';
+import file_58_47_47_47D_58_47sofia_47ProyectoFinal_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47utils_47cache_45driver_46js from 'file:///D:/sofia/ProyectoFinal/node_modules/nuxt/dist/core/runtime/nitro/utils/cache-driver.js';
+import unstorage_47drivers_47fs_45lite from 'file://D:/sofia/ProyectoFinal/node_modules/unstorage/drivers/fs-lite.mjs';
+import { digest } from 'file://D:/sofia/ProyectoFinal/node_modules/nitropack/node_modules/ohash/dist/index.mjs';
 
-const serverAssets = [{"baseName":"server","dir":"D:/sofia/Proyecto8SofiaRafael/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"D:/sofia/ProyectoFinal/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -42,14 +42,14 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('internal:nuxt:prerender', file_58_47_47_47D_58_47sofia_47Proyecto8SofiaRafael_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47utils_47cache_45driver_46js({"driver":"file:///D:/sofia/Proyecto8SofiaRafael/node_modules/nuxt/dist/core/runtime/nitro/utils/cache-driver.js","base":"D:/sofia/Proyecto8SofiaRafael/.nuxt/cache/nitro/prerender"}));
+storage.mount('internal:nuxt:prerender', file_58_47_47_47D_58_47sofia_47ProyectoFinal_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47utils_47cache_45driver_46js({"driver":"file:///D:/sofia/ProyectoFinal/node_modules/nuxt/dist/core/runtime/nitro/utils/cache-driver.js","base":"D:/sofia/ProyectoFinal/.nuxt/cache/nitro/prerender"}));
 storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"./.data/kv"}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/sofia/Proyecto8SofiaRafael","watchOptions":{"ignored":[null]}}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/sofia/Proyecto8SofiaRafael/server","watchOptions":{"ignored":[null]}}));
-storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"D:/sofia/Proyecto8SofiaRafael/content"}));
-storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"D:/sofia/Proyecto8SofiaRafael/.nuxt/content-cache"}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/sofia/Proyecto8SofiaRafael/.nuxt"}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/sofia/Proyecto8SofiaRafael/.nuxt/cache"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/sofia/ProyectoFinal","watchOptions":{"ignored":[null]}}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/sofia/ProyectoFinal/server","watchOptions":{"ignored":[null]}}));
+storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"D:/sofia/ProyectoFinal/content"}));
+storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"D:/sofia/ProyectoFinal/.nuxt/content-cache"}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/sofia/ProyectoFinal/.nuxt"}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/sofia/ProyectoFinal/.nuxt/cache"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -622,7 +622,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "868ba1ca-ce8c-469e-8e23-19bb548f8dc0",
+    "buildId": "645ad373-1d2d-4063-b29f-5f8cef49b767",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -694,7 +694,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1763488055695,
+      "integrity": 1763494212768,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -1147,7 +1147,7 @@ function getAsset (id) {
 
 const METHODS = /* @__PURE__ */ new Set(["HEAD", "GET"]);
 const EncodingMap = { gzip: ".gz", br: ".br" };
-const _5_5CmI = eventHandler((event) => {
+const _vuQtJC = eventHandler((event) => {
   if (event.method && !METHODS.has(event.method)) {
     return;
   }
@@ -2015,7 +2015,7 @@ function contentHeading(body) {
   };
 }
 
-const _p8N6QG = defineEventHandler(async (event) => {
+const _WMzX0M = defineEventHandler(async (event) => {
   const { getContentQuery } = await import('./query.mjs');
   const { serverQueryContent } = await import('./storage.mjs').then(function (n) { return n.s; });
   const query = getContentQuery(event);
@@ -2046,7 +2046,7 @@ const _p8N6QG = defineEventHandler(async (event) => {
   return serverQueryContent(event, query).find();
 });
 
-const _VudjNX = defineEventHandler(async (event) => {
+const _YWnMfU = defineEventHandler(async (event) => {
   const { getContentIndex } = await import('./storage.mjs').then(function (n) { return n.c; });
   const { cacheStorage, serverQueryContent } = await import('./storage.mjs').then(function (n) { return n.s; });
   const { content } = useRuntimeConfig();
@@ -2072,7 +2072,7 @@ const getPreview = (event) => {
   return { key };
 };
 
-const __fDmF_ = defineEventHandler(async (event) => {
+const _ThEfZo = defineEventHandler(async (event) => {
   const { getContentQuery } = await import('./query.mjs');
   const { cacheStorage, serverQueryContent } = await import('./storage.mjs').then(function (n) { return n.s; });
   const { createNav } = await import('./navigation.mjs');
@@ -2113,19 +2113,19 @@ const __fDmF_ = defineEventHandler(async (event) => {
   return createNav(contents?.result || contents, configs);
 });
 
-const _lazy_kvn1vu = () => import('./renderer.mjs').then(function (n) { return n.r; });
+const _lazy_NTU2QQ = () => import('./renderer.mjs').then(function (n) { return n.r; });
 
 const handlers = [
-  { route: '', handler: _5_5CmI, lazy: false, middleware: true, method: undefined },
+  { route: '', handler: _vuQtJC, lazy: false, middleware: true, method: undefined },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
-  { route: '/api/_content/query/:qid/**:params', handler: _p8N6QG, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query/:qid', handler: _p8N6QG, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query', handler: _p8N6QG, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1763488055695.json', handler: _VudjNX, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid/**:params', handler: __fDmF_, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid', handler: __fDmF_, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation', handler: __fDmF_, lazy: false, middleware: false, method: "get" },
-  { route: '/**', handler: _lazy_kvn1vu, lazy: true, middleware: false, method: undefined }
+  { route: '/api/_content/query/:qid/**:params', handler: _WMzX0M, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query/:qid', handler: _WMzX0M, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query', handler: _WMzX0M, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1763494212768.json', handler: _YWnMfU, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid/**:params', handler: _ThEfZo, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid', handler: _ThEfZo, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation', handler: _ThEfZo, lazy: false, middleware: false, method: "get" },
+  { route: '/**', handler: _lazy_NTU2QQ, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

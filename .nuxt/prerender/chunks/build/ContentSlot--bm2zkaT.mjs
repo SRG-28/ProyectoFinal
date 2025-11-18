@@ -1,5 +1,5 @@
 import { f as flatUnwrap } from './node-yHY0X6Y7.mjs';
-import { defineComponent, h, getCurrentInstance, useSlots, computed, useSSRContext } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue/index.mjs';
+import { defineComponent, h, getCurrentInstance, useSlots, computed, useSSRContext } from 'file://D:/sofia/ProyectoFinal/node_modules/vue/index.mjs';
 
 const _sfc_main$1 = defineComponent({
   name: "MDCSlot",

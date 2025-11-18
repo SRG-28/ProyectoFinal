@@ -1,4 +1,4 @@
-import _RemarkEmoji from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-emoji/index.js';
+import _RemarkEmoji from 'file://D:/sofia/ProyectoFinal/node_modules/remark-emoji/index.js';
 
 const remarkPlugins = {
   'remark-emoji': { instance: _RemarkEmoji },

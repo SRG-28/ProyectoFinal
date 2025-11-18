@@ -1,14 +1,14 @@
-import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { getResponseStatusText, getResponseStatus, getQuery, createError, appendResponseHeader } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/h3/dist/index.mjs';
-import { joinURL, withoutTrailingSlash, hasProtocol } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue/server-renderer/index.mjs';
+import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://D:/sofia/ProyectoFinal/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { getResponseStatusText, getResponseStatus, getQuery, createError, appendResponseHeader } from 'file://D:/sofia/ProyectoFinal/node_modules/h3/dist/index.mjs';
+import { joinURL, withoutTrailingSlash, hasProtocol } from 'file://D:/sofia/ProyectoFinal/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file://D:/sofia/ProyectoFinal/node_modules/vue/server-renderer/index.mjs';
 import { b as buildAssetsURL, a as useRuntimeConfig, c as useStorage, d as defineRenderHandler, p as publicAssetsURL, g as getRouteRules, u as useNitroApp } from './nitro.mjs';
-import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/nuxt/node_modules/unhead/dist/server.mjs';
-import { stringify, uneval } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/devalue/index.js';
-import { walkResolver } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/nuxt/node_modules/unhead/dist/utils.mjs';
-import { toValue, isRef, hasInjectionContext, inject, ref, watchEffect, getCurrentInstance, onBeforeUnmount, onDeactivated, onActivated } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/vue/index.mjs';
-import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/nuxt/node_modules/unhead/dist/plugins.mjs';
-import { relative } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/nuxt/node_modules/pathe/dist/index.mjs';
+import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://D:/sofia/ProyectoFinal/node_modules/nuxt/node_modules/unhead/dist/server.mjs';
+import { stringify, uneval } from 'file://D:/sofia/ProyectoFinal/node_modules/devalue/index.js';
+import { walkResolver } from 'file://D:/sofia/ProyectoFinal/node_modules/nuxt/node_modules/unhead/dist/utils.mjs';
+import { toValue, isRef, hasInjectionContext, inject, ref, watchEffect, getCurrentInstance, onBeforeUnmount, onDeactivated, onActivated } from 'file://D:/sofia/ProyectoFinal/node_modules/vue/index.mjs';
+import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file://D:/sofia/ProyectoFinal/node_modules/nuxt/node_modules/unhead/dist/plugins.mjs';
+import { relative } from 'file://D:/sofia/ProyectoFinal/node_modules/nuxt/node_modules/pathe/dist/index.mjs';
 
 const VueResolver = (_, value) => {
   return isRef(value) ? toValue(value) : value;
@@ -260,7 +260,7 @@ async function renderInlineStyles(usedModules) {
 
 const renderSSRHeadOptions = {"omitLineBreaks":false};
 
-const entryFileName = "DyM8WiZb.js";
+const entryFileName = "V79rtIty.js";
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;

@@ -90,6 +90,16 @@
         ← Volver al Catálogo
       </NuxtLink>
     </div>
+
+    <!-- 🟣 UTTERANCES (PASO 3) -->
+    <div class="mt-16 relative z-10">
+      <Utterances
+        repo="SRG-28/ProyectoFinal"
+        issue-term="pathname"
+        label="airline-comments"
+        theme="github-light"
+      />
+    </div>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
-import { pascalCase } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/scule/dist/index.mjs';
-import slugify from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/slugify/slugify.js';
-import { withLeadingSlash, withoutTrailingSlash } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/ufo/dist/index.mjs';
+import { pascalCase } from 'file://D:/sofia/ProyectoFinal/node_modules/scule/dist/index.mjs';
+import slugify from 'file://D:/sofia/ProyectoFinal/node_modules/slugify/slugify.js';
+import { withLeadingSlash, withoutTrailingSlash } from 'file://D:/sofia/ProyectoFinal/node_modules/ufo/dist/index.mjs';
 
 const defineTransformer = (transformer) => {
   return transformer;

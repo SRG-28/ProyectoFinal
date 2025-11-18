@@ -1,21 +1,21 @@
-import { prefixStorage } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unstorage/dist/index.mjs';
-import { isRelative, joinURL, withLeadingSlash, withoutTrailingSlash } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/ufo/dist/index.mjs';
-import { hash } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/ohash/dist/index.mjs';
-import defu from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/defu/dist/defu.mjs';
-import { extname } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/pathe/dist/index.mjs';
-import { camelCase } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/scule/dist/index.mjs';
-import { unified } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unified/index.js';
+import { prefixStorage } from 'file://D:/sofia/ProyectoFinal/node_modules/unstorage/dist/index.mjs';
+import { isRelative, joinURL, withLeadingSlash, withoutTrailingSlash } from 'file://D:/sofia/ProyectoFinal/node_modules/ufo/dist/index.mjs';
+import { hash } from 'file://D:/sofia/ProyectoFinal/node_modules/ohash/dist/index.mjs';
+import defu from 'file://D:/sofia/ProyectoFinal/node_modules/defu/dist/defu.mjs';
+import { extname } from 'file://D:/sofia/ProyectoFinal/node_modules/pathe/dist/index.mjs';
+import { camelCase } from 'file://D:/sofia/ProyectoFinal/node_modules/scule/dist/index.mjs';
+import { unified } from 'file://D:/sofia/ProyectoFinal/node_modules/unified/index.js';
 import { d as defineTransformer, g as generatePath, p as pathMeta } from './path-meta.mjs';
-import { toString } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/mdast-util-to-string/index.js';
-import { postprocess, preprocess } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/micromark/index.js';
-import { stringifyPosition } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/unist-util-stringify-position/index.js';
-import { markdownLineEnding, markdownSpace } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/micromark-util-character/index.js';
-import { push, splice } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/micromark-util-chunked/index.js';
-import { resolveAll } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/micromark-util-resolve-all/index.js';
-import { normalizeUri } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/micromark-util-sanitize-uri/index.js';
+import { toString } from 'file://D:/sofia/ProyectoFinal/node_modules/mdast-util-to-string/index.js';
+import { postprocess, preprocess } from 'file://D:/sofia/ProyectoFinal/node_modules/micromark/index.js';
+import { stringifyPosition } from 'file://D:/sofia/ProyectoFinal/node_modules/unist-util-stringify-position/index.js';
+import { markdownLineEnding, markdownSpace } from 'file://D:/sofia/ProyectoFinal/node_modules/micromark-util-character/index.js';
+import { push, splice } from 'file://D:/sofia/ProyectoFinal/node_modules/micromark-util-chunked/index.js';
+import { resolveAll } from 'file://D:/sofia/ProyectoFinal/node_modules/micromark-util-resolve-all/index.js';
+import { normalizeUri } from 'file://D:/sofia/ProyectoFinal/node_modules/micromark-util-sanitize-uri/index.js';
 import { e as parseMarkdown, a as useRuntimeConfig, i as isPreview, c as useStorage, f as getPreview, u as useNitroApp } from './nitro.mjs';
-import { parseFrontMatter } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/remark-mdc/dist/index.mjs';
-import { destr } from 'file://D:/sofia/Proyecto8SofiaRafael/node_modules/destr/dist/index.mjs';
+import { parseFrontMatter } from 'file://D:/sofia/ProyectoFinal/node_modules/remark-mdc/dist/index.mjs';
+import { destr } from 'file://D:/sofia/ProyectoFinal/node_modules/destr/dist/index.mjs';
 
 const get = (obj, path) => path.split(".").reduce((acc, part) => acc && acc[part], obj);
 const _pick = (obj, condition) => Object.keys(obj).filter(condition).reduce((newObj, key) => Object.assign(newObj, { [key]: obj[key] }), {});
@@ -945,7 +945,7 @@ const json = defineTransformer({
     let parsed;
     if (typeof content === "string") {
       if (_id.endsWith("json5")) {
-        parsed = (await import('file://D:/sofia/Proyecto8SofiaRafael/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+        parsed = (await import('file://D:/sofia/ProyectoFinal/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
       } else if (_id.endsWith("json")) {
         parsed = destr(content);
       }

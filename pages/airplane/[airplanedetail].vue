@@ -36,7 +36,7 @@
         <p class="text-lg text-gray-700"><strong>Capacidad:</strong> {{ airplane.capacidad_pasajeros }} pasajeros</p>
         <p class="text-lg text-gray-700"><strong>Alcance:</strong> {{ airplane.alcance_km }} km</p>
 
-        <!-- NUEVO: Precio -->
+        <!-- Precio -->
         <p class="text-lg text-gray-700">
           <strong>Precio:</strong> {{ formatPrice(airplane.precio) }}
         </p>
@@ -79,6 +79,16 @@
         </NuxtLink>
       </div>
       <p v-else class="text-gray-500 italic mt-2">No hay aerolíneas registradas para este avión.</p>
+    </div>
+
+    <!-- Utterances comentarios -->
+    <div class="mt-16 relative z-10">
+      <Utterances
+        repo="SRG-28/ProyectoFinal"
+        issue-term="pathname"
+        label="airplane-comments"
+        theme="github-light"
+      />
     </div>
 
     <!-- Botón volver -->

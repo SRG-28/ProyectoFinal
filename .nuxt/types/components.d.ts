@@ -14,7 +14,8 @@ type HydrationStrategies = {
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 
 interface _GlobalComponents {
-      'ContentDoc': typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue")['default']
+      'Utterances': typeof import("../../components/global/Utterances.vue")['default']
+    'ContentDoc': typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue")['default']
     'ContentList': typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentList.vue")['default']
     'ContentNavigation': typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue")['default']
     'ContentQuery': typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue")['default']
@@ -77,7 +78,8 @@ interface _GlobalComponents {
     'Body': typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': typeof import("../../node_modules/nuxt/dist/app/components/server-placeholder")['default']
-      'LazyContentDoc': LazyComponent<typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue")['default']>
+      'LazyUtterances': LazyComponent<typeof import("../../components/global/Utterances.vue")['default']>
+    'LazyContentDoc': LazyComponent<typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue")['default']>
     'LazyContentList': LazyComponent<typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentList.vue")['default']>
     'LazyContentNavigation': LazyComponent<typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue")['default']>
     'LazyContentQuery': LazyComponent<typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue")['default']>
